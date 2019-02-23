@@ -11,7 +11,9 @@ https://datahack.analyticsvidhya.com/contest/all/?utm_source=global-header
 
 #### Text Processing 
 
-First I applied various data cleaning methods like removing stopwords, special characters, 
+First I applied various data cleaning methods like removing stopwords,removing special characters and digits. 
+Then I used Port Stemmer and Lemmatizer to stem the words. Port Stemmer performed better with this dataset, therefore I used
+Stemming instead of Lemmatization. 
 
 #### Using Logistic Regression
 
