@@ -15,7 +15,7 @@ https://datahack.analyticsvidhya.com/contest/all/?utm_source=global-header
 2. Then I used Port Stemmer and Lemmatizer to stem the words. Port Stemmer performed better with this dataset, therefore I used
 Stemming instead of Lemmatization. 
 3. Then I used Bag of Words techniques using CountVectorizer to create ngrams of range (1,4).
-4. After Spliting the dataset to validate 30% of data
+4. After Spliting the dataset to validate 30% of data I trained the data with Logistic Regression and LinearSVC to get predictions
 
 
 
