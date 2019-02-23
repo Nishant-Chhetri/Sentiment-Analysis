@@ -26,7 +26,8 @@ Stemming instead of Lemmatization.
 3. Then used Gensim word2vec model to create vector of each word in the dataset.
 4. Using Keras Embeddings, embedded the vectors in place of words with maxlen=20 for each tweet. 
 5. As dataset was unbalanced using accuracy won't give clear idea of performance as model could predict all values 0 and still get high accuracy, therefore built a f1 score metric. 
+6. Deep Learning Architechture was built by concatenating 3 different CNN layers (bigram, trigram and fourgram branch) and then further using BiLSTM and 1 Fully Connected Dense layer followed by a sigmoid layer. 
 
 
-
+![alt text](https://github.com/Nishant-Chhetri/Sentiment-Analysis/blob/master/CNN_LSTM_Arch.bmp)
 
